@@ -1,0 +1,28 @@
+local links = {
+  omnix = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Nether%20Hub%20Omnix",
+}
+
+local utility = {
+  [16365412402] = links.omnix,
+  [16091658541] = links.omnix,
+  [16129091908] = links.omnix,
+  [521009548] = links.omnix,
+  [16029997375] = links.omnix,
+  [16365412402] = links.omnix,
+  [16091658541] = links.omnix,
+  [16129091908] = links.omnix,
+  [5210095481] = links.omnix,
+}
+local function verify()
+  for id, script in pairs(utility) do
+    if game.PlaceId == id then
+      return true
+    end
+  end
+end
+
+if verify() then
+  loadstring(game:HttpGet(utility[game.PlaceId]))()
+else
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Nether%20Hub"))()
+end
