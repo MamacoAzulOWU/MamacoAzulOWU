@@ -1,6 +1,6 @@
 local links = {
   omnix = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Nether%20Hub%20Omnix",
-  slapbattles = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/NetherHub%20%7C%20Slap%20Battles"
+  slap.battles = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/NetherHub%20%7C%20Slap%20Battles"
   brookhaven = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Brook%20Nether"
 }
 
@@ -15,7 +15,7 @@ local utility = {
   [16129091908] = links.omnix,
   [5210095481] = links.omnix,
   [6403373529] = links.slapbattles,
-  [4924922222] = links.brookhaven
+  [4924922222] = links.brookhaven,
 }
 local function verify()
   for id, script in pairs(utility) do
