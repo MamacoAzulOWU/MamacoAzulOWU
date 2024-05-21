@@ -1,6 +1,6 @@
 local links = {
   omnix = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Nether%20Hub%20Omnix",
-  slap.battles = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/NetherHub%20%7C%20Slap%20Battles"
+  slapbattles = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/NetherHub%20%7C%20Slap%20Battles"
 }
 
 local utility = {
