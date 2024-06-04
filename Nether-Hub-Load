@@ -2,7 +2,7 @@ local links = {
   omnix = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Nether%20Hub%20Omnix",
   slapbattles = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/NetherHub%20%7C%20Slap%20Battles",
   brookhaven = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Brook%20Nether",
-  stairstovip = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Stairs",
+  stairstovip = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/2000%20Stairs%20To%20Vip",
 }
 
 local utility = {
