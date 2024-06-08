@@ -1,64 +1,34 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Nether Hub | Key System Deletada", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
+local links = {
+  omnix = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Nether%20Hub%20Omnix",
+  slapbattles = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/NetherHub%20%7C%20Slap%20Battles",
+  brookhaven = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Brook%20Nether",
+  stairstovip = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/2000%20Stairs%20To%20Vip",
+}
 
-_G.Key = "72662672882997271992272" -- You Put Your Key Here
-_G.KeyInput = "string"
-
-function MakeScriptHub()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Nether-Hub-Load"))()
-
+local utility = {
+  [16365412402] = links.omnix,
+  [16091658541] = links.omnix,
+  [16129091908] = links.omnix,
+  [521009548] = links.omnix,
+  [16029997375] = links.omnix,
+  [16365412402] = links.omnix,
+  [16091658541] = links.omnix,
+  [16129091908] = links.omnix,
+  [5210095481] = links.omnix,
+  [6403373529] = links.slapbattles,
+  [4924922222] = links.brookhaven,
+  [10129750406] = links.stairstovip
+}
+local function verify()
+  for id, script in pairs(utility) do
+    if game.PlaceId == id then
+      return true
+    end
+  end
 end
 
-
-function CorrectKeyNotifications()
-    OrionLib:MakeNotification({
-        Name = "Codigo Certo",
-        Content = "Aeee, Bem Vindo ao Script Nether Hub",
-        Image = "rbxassetid://17590287332",
-        Time = 5
-    })
+if verify() then
+  loadstring(game:HttpGet(utility[game.PlaceId]))()
+else
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Nether%20Hub"))()
 end
-
-function WrongKeyNotifications()
-    OrionLib:MakeNotification({
-        Name = "Codigo Errado",
-        Content = "Tente Novamente voce consegue",
-        Image = "rbxassetid://17590287332",
-        Time = 5
-    })
-end
-
-local Tab = Window:MakeTab({
-	Name = "Sala Principal",
-	Icon = "rbxassetid://17590287332",
-	PremiumOnly = false
-})
-
-Tab:AddTextbox({
-	Name = "Checar Código",
-	Default = "Codigo?",
-	TextDisappear = true,
-	Callback = function(Value)
-        _G.KeyInput = Value
-	end	  
-})
-
-Tab:AddButton({
-	Name = "Checar Codigo!",
-	Callback = function()
-        if _G.KeyInput == _G.Key then
-        OrionLib:Destroy()
-         MakeScriptHub()
-         CorrectKeyNotifications()
-     else
-        WrongKeyNotifications()
-        end
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Copiar Codigo",
-	Callback = function()
-        setclipboard("72662672882997271992272")
-  	end    
-})
