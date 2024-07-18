@@ -3,7 +3,7 @@ local links = {
   slapbattles = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/NetherHub%20%7C%20Slap%20Battles",
   brookhaven = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Brook%20Nether",
   stairstovip = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/2000%20Stairs%20To%20Vip",
-  BF = "print("In Dev")"
+  BF = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Bloco%20De%20Fruta"
 }
 
 local utility = {
