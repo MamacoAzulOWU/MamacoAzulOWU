@@ -8,14 +8,6 @@ local links = {
 
 local utility = {
   [16365412402] = links.omnix,
-  [16091658541] = links.omnix,
-  [16129091908] = links.omnix,
-  [521009548] = links.omnix,
-  [16029997375] = links.omnix,
-  [16365412402] = links.omnix,
-  [16091658541] = links.omnix,
-  [16129091908] = links.omnix,
-  [5210095481] = links.omnix,
   [6403373529] = links.slapbattles,
   [4924922222] = links.brookhaven,
   [10129750406] = links.stairstovip,
