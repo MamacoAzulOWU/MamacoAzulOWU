@@ -3,7 +3,9 @@ local links = {
   slapbattles = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/NetherHub%20%7C%20Slap%20Battles",
   brookhaven = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Brook%20Nether",
   stairstovip = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/2000%20Stairs%20To%20Vip",
-  BF = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Bloco%20De%20Fruta"
+  BF1 = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Bloco%20De%20Fruta",
+  BF2 = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Bloco%20De%20Fruta",
+  BF3 = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Bloco%20De%20Fruta"
 }
 
 local utility = {
@@ -11,9 +13,9 @@ local utility = {
   [6403373529] = links.slapbattles,
   [4924922222] = links.brookhaven,
   [10129750406] = links.stairstovip,
-  [2753915549] = links.BF,
-  [4442272183] = links.BF,
-  [7449423635] = links.BF
+  [2753915549] = links.BF1,
+  [4442272183] = links.BF2,
+  [7449423635] = links.BF3
 }
 local function verify()
   for id, script in pairs(utility) do
