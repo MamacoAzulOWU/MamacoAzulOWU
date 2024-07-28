@@ -9,7 +9,7 @@ local links = {
 }
 
 local utility = {
-  [16365412402] = links.omnix,
+  [5210095481] = links.omnix,
   [6403373529] = links.slapbattles,
   [4924922222] = links.brookhaven,
   [10129750406] = links.stairstovip,
