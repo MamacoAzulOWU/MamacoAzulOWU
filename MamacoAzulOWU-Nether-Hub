@@ -465,13 +465,13 @@ function LoadFunction()
                 if id == 5210095481 or id == 6403373529 or id == 4924922222 or id == 10129750406 or id == 2753915549 or id == 4442272183 or id == 7449423635 then
                     TitleLoad.Text = "Games Found: " .. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
                     local links = {
-  omnix = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Jogos%20/Nether%20H[ub%20Omnix",
-  slapbattles = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Jogos%20/NetherHub%20%7C%20Slap%20Battles",
+  omnix = "https://github.com/MamacoAzulOWU/MamacoAzulOWU/raw/main/Jogos%20/Nether%20Hub%20Omnix",
+  slapbattles = "https://github.com/MamacoAzulOWU/MamacoAzulOWU/raw/main/Jogos%20/NetherHub%20%7C%20Slap%20Battles",
   brookhaven = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Jogos%20/Brook%20Nether",
   stairstovip = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Jogos%20/2000%20Stairs%20To%20Vip",
-  BF1 = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Jogos%20/Bloco%20De%20Fruta",
-  BF2 = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Jogos%20/Bloco%20De%20Fruta",
-  BF3 = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Jogos%20/Bloco%20De%20Fruta"
+  BF1 = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Jogos%20/Bloco%20De%20Frutas",
+  BF2 = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Jogos%20/Bloco%20De%20Frutas",
+  BF3 = "https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Jogos%20/Bloco%20De%20Frutas"
 }
 
 local utility = {
@@ -494,7 +494,7 @@ end
 if verify() then
   loadstring(game:HttpGet(utility[game.PlaceId]))()
 else
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Nether%20Hub"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MamacoAzulOWU/MamacoAzulOWU/main/Jogos%20/Nether%20Hub"))()
                         end
                 end
                 TitleLoad.Font = Enum.Font.GothamBold
