@@ -1,6 +1,0 @@
---[[
-
-Nether Hub | Info Nao Funciona Mais Dsclp
-
-]]--
-game.Players.LocalPlayer:Kick("Nether Hub| Info Nao Esta Funcionando Mais Desculpe")
